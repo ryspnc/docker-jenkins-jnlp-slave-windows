@@ -1,7 +1,7 @@
 # escape=`
 
 # Get OpenJDK nanoserver container
-FROM openjdk:8-nanoserver as openjdk
+FROM openjdk:8-nanoserver-1809 as openjdk
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
